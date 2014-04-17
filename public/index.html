@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>Mean Stack </title>
+	<link href="./bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	<!-- <link href="signin.css" rel="stylesheet"> -->
+	<link rel='stylesheet' href='./stylesheets/style.css' />
+</head>
+
+<body>
+	<section class="container">
+    <div class="login">
+		<h1>Welcome to the Mean Stack</h1>    	
+			<div ng-app="myApp">
+				<ng-view></ng-view>
+			</div>
+	</div>
+	</section>
+	<section class="about">
+	    <p class="about-author">
+	      &copy; 2014&ndash;2015 <a href="http://www.commercialtribe.com" target="_blank">Commercial Tribe</a>
+  	</section>	
+		
+	<script src="/jquery/jquery.min.js"></script> 
+	<script src="/angular/angular.min.js"></script>
+	<script src="controller.js"></script>
+</body>
+</html>

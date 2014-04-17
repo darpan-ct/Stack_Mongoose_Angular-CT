@@ -1,0 +1,38 @@
+
+
+<h1>{{ user.username}} Information</h1>
+
+	<!-- <b>First Name: </b> {{userInfo.firstName}} </br>
+	<b>Last Name: </b>{{userInfo.lastName}} </br>
+	<b>Address: </b>{{userInfo.address}} </br>
+	<b>City: </b>{{userInfo.city}} </br>
+	<b>State: </b>{{userInfo.state}} </br>
+	<b>zip Code: </b>{{userInfo.zip}} </br>
+	<b>notes: </b>{{userInfo.notes}} </br> -->
+	<!-- <div> -->
+		<!-- <button ng-click="changePassword()">Change Password</button>
+		<button ng-click="deleteUser()">Delete Account</button>
+		<button ng-click="logOut()">Log Out</button> -->
+	<!-- </div> -->
+
+	<input type="text" name="fname" value="{{ userInfo.firstName }}"  placeholder="First Name">&nbsp; {{ userInfo.firstName }}
+	<input type="text" name="lname" value="{{ userInfo.lastName }}"  placeholder="Last Name">
+	
+	<p><input type="text" name="address" value="{{ userInfo.address }}"  placeholder="Address">&nbsp;
+	<input type="text" name="city" value="{{ userInfo.city }}"  placeholder="City"></p>
+	
+	<p><input type="text" name="state" value="{{ userInfo.state }}"  placeholder="State">&nbsp;
+	<input type="text" name="zip" value="{{ userInfo.zip }}"  placeholder="Zip"></p>
+	
+	<p><input type="text" name="notes" value="{{ userInfo.notes }}"  placeholder="notes"></p>
+	</br><center>
+	<input type="submit" ng-click="update()" value="Update Info" />
+	<input type="submit" ng-click="changePassword()" value="Change Password" />
+	<input type="submit" ng-click="deleteUser()" value="Delete Account" />
+	<input type="submit" ng-click="logOut()" value="LogOut" /></center>
+
+
+
+<!--<div>
+	<button ng-click="update()">Update Info</button>
+</div -->

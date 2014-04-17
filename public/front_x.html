@@ -1,0 +1,22 @@
+<!-- <div class="container">
+	<form class="form-signin">
+		<h2 class="form-signin-headin">Log In</h2>khkj
+		<input type="text" ng-model="userData.userName" class="form-control" placeholder="User Name">
+		<input type="password" ng-model="userData.password" class="form-control" placeholder="Password">
+		<button ng-click="createUser(userData.userName)" class="btn btn-lg btn-primary btn-block">
+			Create User
+		</button>
+		<button ng-click="logIn(userData.userName, userData.password)" class="btn btn-lg btn-primary btn-block">
+			Log In
+		</button>
+	</form>
+</div> -->
+
+	<p><input type="text" ng-model="userData.userName" name="login" value="" placeholder="Username or Email">
+	<input type="password" ng-model="userData.password" name="password" value="" placeholder="Password"></p>
+	    <!-- <p class="remember_me">
+	        
+	    </p> -->
+	<p class="submit"><center><input type="submit" ng-click="createUser()" name="commit" value="Create">
+	 &nbsp; &nbsp; <input type="submit" ng-click="logIn(userData.userName, userData.password)" name="commit" value="Login"></center>
+ 
